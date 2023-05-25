@@ -29,3 +29,10 @@ body {
     );
     text-align: center;
 }
+
+.app-title {
+    color: #0ccac4;
+    margin: 75px 50px auto auto;
+    font-size: 76px;
+    font-family: bigelow rules, sans-serif;
+}
