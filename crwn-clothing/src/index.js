@@ -8,9 +8,13 @@ import {UserProvider} from "./context/user.contexts"
 import {CategoriesProvider} from "./context/categories.contexts";
 import {CartProvider} from "./context/cart-context";
 
+import {Provider} from "react-redux";
+import {store} from "./store/store";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
+        <Provider store={store}>
         <BrowserRouter>
             <UserProvider>
                 <CategoriesProvider>
@@ -20,6 +24,7 @@ root.render(
                 </CategoriesProvider>
             </UserProvider>
         </BrowserRouter>
+        </Provider>
     </React.StrictMode>
 );
 
