@@ -12,9 +12,9 @@ export const UserActionTypes = {
 }
 
 const userReducer = (state, action) => {
-    console.log("state", state);
-    console.log("Dispatched")
-    console.log("action", action);
+    // console.log("state", state);
+    // console.log("Dispatched")
+    // console.log("action", action);
     const {type, payload} = action;
 
     switch (type) {
@@ -34,12 +34,12 @@ const INITIAL_STATE = {
 
 export const UserProvider = ({children}) => {
     const [{currentUser}, dispatch] = useReducer(userReducer, INITIAL_STATE);
-    console.log('currentUser', currentUser);
+    // console.log('currentUser', currentUser);
     const setCurrentUser = (user) => dispatch(createAction(UserActionTypes.SET_CURRENT_USER, user));
     const value = {currentUser, setCurrentUser};
     useEffect(() => {
         const unsubscribe = onAuthStateChangedListener((user) => {
-            console.log(user)
+            // console.log(user)
             if (user) {
                 createUserDocumentFromAuth(user);
             }
