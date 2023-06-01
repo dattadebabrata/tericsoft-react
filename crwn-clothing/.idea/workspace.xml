@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f6f988f-60d9-44fa-8f7e-fccb1cd66f96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/middleware/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spinner/spinner.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spinner/spinner.styles.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/categories-preview/categories-preview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/category/category.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/category/category.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/shop/shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/categories/category.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/categories/category.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/categories/category.selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/categories/category.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/categories/category.types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -52,12 +59,34 @@
       <updated>1685025603375</updated>
       <workItem from="1685025605248" duration="33000" />
       <workItem from="1685532028299" duration="8547000" />
-      <workItem from="1685596372300" duration="11470000" />
+      <workItem from="1685596372300" duration="16117000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/routes/shop/shop.component.jsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
