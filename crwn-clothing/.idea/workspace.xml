@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1f6f988f-60d9-44fa-8f7e-fccb1cd66f96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in-form/sign-in-form.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/user/user.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/user/user.saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/user/user.types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/sign-up-form/sign-up-form.component.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/store/user/user.action.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/store/user/user.reducer.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/store/user/user.saga.js" root0="SKIP_INSPECTION" />
   </component>
@@ -53,7 +57,7 @@
       <updated>1685025603375</updated>
       <workItem from="1685025605248" duration="33000" />
       <workItem from="1685532028299" duration="8547000" />
-      <workItem from="1685596372300" duration="32438000" />
+      <workItem from="1685596372300" duration="35358000" />
     </task>
     <servers />
   </component>

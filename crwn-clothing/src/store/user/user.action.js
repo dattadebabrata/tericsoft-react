@@ -1,6 +1,7 @@
 import {createAction} from "../../utils/reducer/reducer.utils";
 import {USER_ACTION_TYPES} from "./user.types";
-export const setCurrnetUser=(user)=> createAction(USER_ACTION_TYPES.SET_CURRENT_USER, user);
+
+export const setCurrnetUser = (user) => createAction(USER_ACTION_TYPES.SET_CURRENT_USER, user);
 
 //     SET_CURRENT_USER: 'user/SET_CURRENT_USER',
 //     CHECK_USER_SESSION: 'user/CHECK_USER_SESSION',
@@ -11,6 +12,21 @@ export const setCurrnetUser=(user)=> createAction(USER_ACTION_TYPES.SET_CURRENT_
 
 export const checkUserSession = () => createAction(USER_ACTION_TYPES.CHECK_USER_SESSION);
 export const googleSignInStart = () => createAction(USER_ACTION_TYPES.GOOGLE_SIGN_IN_START);
-export const emailSignInStart = (email, password) => createAction(USER_ACTION_TYPES.EMAIL_SIGN_IN_START, {email, password});
+export const emailSignInStart = (email, password) => createAction(USER_ACTION_TYPES.EMAIL_SIGN_IN_START, {
+    email,
+    password
+});
 export const signInSuccess = (user) => createAction(USER_ACTION_TYPES.SIGN_IN_SUCCESS, user);
 export const signInFailed = (error) => createAction(USER_ACTION_TYPES.SIGN_IN_FAILED, error);
+
+export const signUpStart = (email, password, displayName) => createAction(USER_ACTION_TYPES.SIGNUP_START, {
+    email,
+    password,
+    displayName
+});
+export const signUpSuccess = (user, additionalDetails) => createAction(USER_ACTION_TYPES.SIGNUP_SUCCESS, {
+    user,
+    additionalDetails
+});
+
+export const signUpFailed = (error) => createAction(USER_ACTION_TYPES.SIGNUP_FAILED, error);
