@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f6f988f-60d9-44fa-8f7e-fccb1cd66f96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netlify/functions/create-payment-intent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/payment-form/payment-form.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/payment-form/payments-form.styles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/stripe/stripe.utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout/checkout.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="1f6f988f-60d9-44fa-8f7e-fccb1cd66f96" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +53,7 @@
       <workItem from="1685025605248" duration="33000" />
       <workItem from="1685532028299" duration="8547000" />
       <workItem from="1685596372300" duration="38138000" />
-      <workItem from="1685682513761" duration="23810000" />
+      <workItem from="1685682513761" duration="23825000" />
     </task>
     <servers />
   </component>
