@@ -5,7 +5,7 @@ export const BackgroundImage = styled.div`
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-image: ${({imageUrl}) => `url(${imageUrl})`};
+  background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
 
 export const Body = styled.div`
@@ -45,25 +45,24 @@ export const DirectoryItemContainer = styled.div`
   margin: 0 7.5px 15px;
   overflow: hidden;
 
+  &:first-child {
+    margin-right: 7.5px;
+  }
+
+  &:last-child {
+    margin-left: 7.5px;
+  }
+
   &:hover {
     cursor: pointer;
 
-    & ${BackgroundImage} {
+    ${BackgroundImage} {
       transform: scale(1.1);
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
 
-    & ${Body} {
+    ${Body} {
       opacity: 0.9;
     }
-
-    &:first-child {
-      margin-right: 7.5px;
-    }
-
-    &:last-child {
-      margin-left: 7.5px;
-    }
-
   }
 `;
